@@ -1,0 +1,14 @@
+version: '2'
+services:
+  logic:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code
+    depends_on:
+     - dynamodb
+  dynamodb:
+    build: ./dynamodb-local
+
+

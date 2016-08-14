@@ -1,0 +1,23 @@
+{"users":
+  [
+      {
+        "username": "tyrion",
+        "house": "lannister"
+      },
+      {
+        "username": "jaime",
+        "house": "lannister"
+      },
+      {
+        "username": "arya",
+        "house": "stark"
+      },
+      {
+        "username": "jon snow",
+        "house": "stark"
+      }
+  ]
+}
+
+
+
